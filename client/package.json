@@ -1,0 +1,16 @@
+{
+  "name": "berkeley-client",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "ts-node index"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ws": "^8.14.2"
+  },
+  "devDependencies": {
+    "@types/ws": "^8.5.10"
+  }
+}

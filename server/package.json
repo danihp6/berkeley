@@ -1,0 +1,19 @@
+{
+  "name": "berkeley-server",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "ts-node index"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "rxjs": "^7.8.1",
+    "uuid": "^9.0.1",
+    "ws": "^8.14.2"
+  },
+  "devDependencies": {
+    "@types/uuid": "^9.0.7",
+    "@types/ws": "^8.5.10"
+  }
+}

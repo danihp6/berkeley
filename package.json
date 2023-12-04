@@ -1,0 +1,12 @@
+{
+  "name": "berkeley",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "install-dependencies": "cd server && npm ci && cd ../client && npm ci",
+    "server": "cd server && npm run start",
+    "client": "cd client && npm run start"
+  },
+  "author": "",
+  "license": "ISC"
+}

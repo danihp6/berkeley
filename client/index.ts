@@ -23,7 +23,7 @@ function main() {
       }));
     }
 
-    if (data.message === 'TIME_AVERAGE') {
+    if (data.message === 'TIME_RESULT') {
       const average = new Date(data.average);
       console.log(`time average is ${printTime(average)}`);
       const serverTime = new Date(data.time);

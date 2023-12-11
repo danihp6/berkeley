@@ -65,7 +65,7 @@ function main() {
 
         Object.values(teams).forEach(team => {
           team.ws.send(JSON.stringify({
-            message: 'TIME_AVERAGE',
+            message: 'TIME_RESULT',
             average: average.getTime(),
             time: time.getTime()
           }));
